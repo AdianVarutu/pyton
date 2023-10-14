@@ -41,8 +41,7 @@ elif operatia=="*":
     rezultat = number*number2
 elif operatia=="/":
     rezultat = number/number2
-else operatia=="\":
-    rezultat = number/number2
+
 
 
 print("rezultatul este: ")
