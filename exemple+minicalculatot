@@ -1,0 +1,49 @@
+#---- 1 exemplu -----
+
+# numar = 10 #int
+
+# numar_real = -2.5#float
+
+# variabila_bool = True#bool
+
+# un_caracter = "abc"#str (de la string)
+
+# print(numar, numar_real, variabila_bool,un_caracter)
+
+#------ exemplul 2 -------
+
+# numarul1 = 30
+# numarul2 = 433
+# un_text ="Acesta este un text."
+# print(numarul1,numarul2,un_text)
+
+#----- exemplul 3 ------
+
+# numar_de_la_exemplul_3_1 = 10
+# an_caracter = "+"
+# numar_de_la_exemplul_3_2 = 40
+# an_caracter2 = "="
+# suma_primelor2nr = numar_de_la_exemplul_3_2+numar_de_la_exemplul_3_1
+# print(numar_de_la_exemplul_3_1,an_caracter,numar_de_la_exemplul_3_2,an_caracter2,suma_primelor2nr)
+
+#----- exemplul 4  mini calculator------
+
+number =  float (input("Introduceti primul numar:"))
+number2 = float  (input("Introduceti al doilea numar:"))
+
+operatia = input("intoduceti o operatie:")
+
+if operatia=="+":
+    rezultat = number+number2
+elif operatia=="-":
+    rezultat = number-number2
+elif operatia=="*":
+    rezultat = number*number2
+elif operatia=="/":
+    rezultat = number/number2
+else operatia=="\":
+    rezultat = number/number2
+
+
+print("rezultatul este: ")
+print(rezultat)
