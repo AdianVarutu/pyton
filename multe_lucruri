@@ -1,0 +1,81 @@
+#--------A LIST----------
+list = [1,2,3,4]
+ print(list)
+
+
+# numar = 1#int
+# numar2 = 2.0#float
+# cuvant = "Hello"#str
+# raspuns= True#bool
+
+# b=False
+# f=1.0
+# i=2
+# s=" "
+
+# print(type(numar))
+# print(type(numar2))
+# print(type(cuvant))
+# print(type(raspuns))
+# print(numar2)
+
+# if(type(raspuns)==bool):
+#   print("raspuns =bool")
+
+# if(type(numar)== type(i)):
+#   print("variabila {numar} e o variabila de tipul int")
+
+# if(type(numar2)== type(f)):
+#   print("variabila {numar2} e o variabila de tipul float")
+
+#   if(type(cuvant)== type(s)):
+#    print("variabila {cuvant} e o variabila de tipul string")
+
+#   if(type(raspuns)== type(b)):
+#    print("variabila {raspuns} e o variabila de tipul bool")
+
+# #---------A MATRIX-------------
+#   matrix = [[1, 2, 3, 4], 
+#             [5, 6, 7, 8],
+#             [9, 10, 11, 12]]
+ 
+# print("Matrix =", matrix)
+
+# matrix_ = [[1,4,5,6],[3,7,8,78,65],
+#           [5,6,7,78,88]]
+# print("matrix=", matrix_)
+
+#---------o chestiuta micuta si usoara banuiesc-----------
+
+# print("ce tip de data vrei sa ai? (i/b/f/s)")
+# raspuns= input()
+# if raspuns =="i":
+#     variabila =int(input("alege un nr intreg"))
+#     print(f"ai ales {variabila} care e de tipul {type(variabila)}")
+# elif raspuns =="f":
+#   variabila = float(input("alege un float"))
+#   print(f"ai ales {variabila} care e de tipul {type(variabila)}")
+# elif raspuns =="b":
+#   variabila = bool(input("alege un bool(true/false)"))
+#   print(f"ai ales {variabila} care e de tipul {type(variabila)}")
+# else: 
+#   variabila = str(input("alege un string"))
+#   print(f"ai ales {variabila} care e de tipul {type(variabila)}")
+
+# numarr = int(input("introduceti un numar"))
+
+# if numarr % 2 ==0 :
+#   #rest=0
+#   print("numarul e par")
+# else:
+#  #rest=1
+#   print("numarul e impar")
+
+numere_cate = int(input("cate numere introduci? "))
+suma = 0
+while(numere_cate!=0):
+  numar_nou = int(input("introduceti un nou numar: "))
+  suma=suma+numar_nou
+  numere_cate=numere_cate-1
+
+print(f'suma numerelor este {suma}')
