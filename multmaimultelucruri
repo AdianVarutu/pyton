@@ -1,0 +1,38 @@
+# print("hey world")
+# cuvant = "hello world"#variabila (cuvant) va retine in memorie stringul dat
+
+# print(cuvant)
+# print(type(cuvant))
+# print(cuvant[4])
+# print(cuvant[6])
+# print(cuvant[-5])
+# print(f'variabila cuvant are {len(cuvant)} litere')
+
+# print("o w" in cuvant)
+# print("world" in cuvant)
+
+propozitie = "biscuiti cu fa ina si gr au" 
+ 
+if "grau" in propozitie:
+  print("in variabila cuvantul 'grau' se afla in propozitie")
+elif "faina" in propozitie:
+  print("in variabila cuvantul 'faina' se afla in propozitie")
+elif "ovaz" not in propozitie:
+  print("cuvantul 'ovaz ' nu se afla in propozitie")
+else:
+  print("in variabila nu se afla cuvntul 'grau' nici 'faina'")
+ 
+print(propozitie[-9:25])
+
+print(propozitie.upper())
+
+list = [1,2,3,4,5,6,7]
+print(list)
+
+for litera in propozitie:
+  print(litera)
+
+i=0
+while i<len(propozitie):
+  print(propozitie[i])
+  i+=1
