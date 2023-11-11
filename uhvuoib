@@ -1,0 +1,101 @@
+# print("Welcome to Wonderland.")
+# name = input("Enter your name my dear person: ")
+# print("Hello " + name + "!")
+
+# print("Shall we begin?")
+# print("1, Yes")
+# print("2, No")
+
+# begin = int(input())
+
+# while begin!=1:
+#   print("Shall we begin?")
+#   print("1, Yes")
+#   print("2, No")
+#   begin = int(input())
+
+# import random
+
+# x = random.randint(a= 1, b= 28)
+# print("Please guess a number")
+# # print("The number is"+ str(x))
+# userInput = int(input())
+
+# timesTried=0
+# haswinn= False
+# shouldFinish = False
+
+# while not shouldFinish:
+#   timesTried +=1
+
+#   if timesTried ==5:
+#     if userInput == x:
+#       haswinn = True
+#       shouldFinish = True
+#     elif userInput <x:
+#       print("Guess lower")
+#       userInput = int(input())
+#     else:
+#       print("Guess higher")
+#       userInput = int(input())
+#   else:
+#     shouldFinish = True
+
+
+a=" Python e cool."
+b="   Chiar e cool."
+c=" ADEVARATTTTTTTTTTTTTTTTTTTTTTTTTT :)"
+
+print(a+b)
+print(type(a))
+print(a[5])
+print(b[-7])
+variabilay=13
+print(variabilay)
+print(a.index("e"))
+r=a.index("y")
+print(r)
+print(a.count('o'))
+print(a.upper())
+print(a+c+b)
+print(a*8)
+print(a+"si tare")
+print("pyt" in a)
+
+
+if "Python" in a:
+  print("in variabila cuvantul 'Python' se afla in propozitie")
+elif "e" in a:
+  print("in variabila cuvantul 'e' se afla in propozitie")
+elif "GARGAMEL" not in a:
+  print("cuvantul 'cool ' nu se afla in propozitie")
+else:
+  print("in variabila nu se afla cuvntul 'python' nici 'e'")
+  
+print(a[0:5])
+
+
+
+number =  float (input("Introduceti primul numar:"))
+number2 = float  (input("Introduceti al doilea numar:"))
+
+operatia = input("intoduceti o operatie:")
+
+if operatia=="+":
+    rezultat = number+number2
+elif operatia=="-":
+    rezultat = number-number2
+elif operatia=="*":
+    rezultat = number*number2
+elif operatia=="/":
+    rezultat = number/number2
+elif operatia=="modul":
+    rezultat = number % number2 
+elif operatia=="med arit":
+    rezultat = (number+number2)/2
+elif operatia=="ridicare la putere":
+    rezultat = number*number+number2*number2
+elif operatia=="putete":
+    rezultat = pow(number, number2)
+print("rezultatul este: ")
+print(int(rezultat))
