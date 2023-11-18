@@ -1,0 +1,42 @@
+#intr_un parc sunt n alei pe fiecare alee sunt n arbori fiecare arbore are n crengi n cuiburi si fiecare cuib are n pasari cate pasari sunt?
+
+
+
+# n =int(input("Introdu nr n"))
+# nr_alei=(n)
+# print (f"nr de alei e {nr_alei}")
+# nr_copaci=(n*nr_alei)
+# print(f"nr de copaci e {nr_copaci}")
+# nr_crengi=(n*nr_copaci)
+# print(f"nr de crengi e {nr_crengi}")
+# nr_cuiburi=(n*nr_crengi)
+# print(f"nr de cuiburi e {nr_cuiburi}")
+# nr_pasari=(n*nr_cuiburi)
+# print(f"nr de pasari e {nr_pasari}")
+# def calcul(n):
+#     alei = n*alei
+#     apbori = n*alei
+#     crengi= n*apbori
+#     cuiburi = n*crengi
+#     pasari=n*cuiburi
+
+# import tkinter as tk
+# from tkinter import messagebox
+# from time import sleep
+
+
+# def intro():
+#     nume = entry_name.get()
+#     messagebox.showinfo(title"Salut!", message:f''Ok, {nume}! O sa ne jucam Spanzuratoarea!)
+
+
+
+# def reguli():
+#     sleep(2)
+#     messagebox.showinfo (tile "Reguli", message:"Regulile sunt urmatoarele:\n"
+#        "1. Trebuie sa ghicesti cuvantul din 8 litere \n"
+#        "2. Ai la dipozitie 6 vieti\n"
+#        "3.Daca se epuiseaza vietile, vei fi spanzurat")
+
+
+#     def desingn_spanzuartoarea
