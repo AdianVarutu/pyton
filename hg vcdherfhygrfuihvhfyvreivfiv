@@ -1,0 +1,24 @@
+n=int(input("Introdu nr n"))
+print(n)
+numere=[]
+cifre=[]
+i = 0
+while i <= n:
+    print(i)
+    i += 1
+
+
+for i in range(n):
+    x=int(input(f"Introduceceti nr {i+1}: "))
+    numere.append(x)
+
+copie=n 
+
+while copie>0:
+    u_cifra = copie%10
+    cifre.append(u_cifra)
+    copie= copie // 10
+
+print(f"Lista de cifre e: {cifre}")
+max_cifre = max(cifre)
+print(f"cifre max e {max_cifre}")
