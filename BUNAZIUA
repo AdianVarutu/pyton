@@ -1,0 +1,31 @@
+cutie_de_bomboane = int(input("cat costa o cutie de bomboane?"))
+bomboane= int(input("cati bani are Gigel: "))
+catibaniprimestegigel= int(input("Cati bani primeste Gigel: "))
+cu_bani_pe_care_ii_are_gigel =(bomboane+catibaniprimestegigel)
+print(f"Bani pe care ii are Gigel in total {cu_bani_pe_care_ii_are_gigel}")
+bombone = (cu_bani_pe_care_ii_are_gigel-cutie_de_bomboane)
+print(f"Gige poate cumpera {bombone}")
+print(f"Adica face diabet")
+print(f"Restul de bani pe care ii are Gigel {cu_bani_pe_care_ii_are_gigel-cutie_de_bomboane}")
+
+patart=int(input("Care e latura patratului: "))
+print(f"Aria patratului tau este {patart*patart}")
+dreptunghil = int(input("Care e latimea dreptunhiului: "))
+dreptunghiL = int(input("Care este lungimea dreptunghiului:  "))
+print(f"Aria dreptunghiului este de:{dreptunghil*dreptunghiL}")
+raza_cerc= int(input("Raza crecului este de:  "))
+pi = 3.14
+print(f"Aria crecului tau este de : {raza_cerc*raza_cerc*pi}")
+
+
+
+
+# se da un nr n sa se calculeze suma predecesorilor si succesorilor nr  
+# sa se calculeze n-1+n+n+1+n+2+n+3
+# sa se calculeze n+1*n+2*n+3
+
+n= int(input("Dami un nr de 3 cifre: "))
+while n<100:
+  n= int(input("Dami un nr de 3 cifre: "))
+print(f"Suma e de :{n-1+n+n+1+n+2+n+3}")
+print(f"Produsul e de: {(n+1)*(n+2)*(n+3)}")
