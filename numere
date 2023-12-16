@@ -1,0 +1,50 @@
+# n= int(input("Dami un nr"))
+# while n<100:
+#     n= int(input("Dami un nr"))
+# new_n = n
+
+# def cea_mai_mare_cifra_para(n):
+#     max_cifra_para = -1
+    
+#     while n> 0:
+#         cifra = n%10
+        
+#         if cifra % 2 == 0 and cifra > max_cifra_para:
+#             max_cifra_para = cifra
+        
+        
+#         n //= 10
+        
+#     if max_cifra_para == -1:
+#         return 10 
+#     else:
+#         return max_cifra_para
+    
+# numar = int(input("Introduceti nr nat: "))
+# rezultat = cea_mai_mare_cifra_para(numar)
+# print(f"Cea mai mare cifra para a nr {numar} este: {rezultat}")
+
+# n = int(input("n(nu pune un nr de 4 cifre sau de 2 cifre)="))
+
+# c3 = n % 10
+# c2 = (n // 10) % 10
+# c1 = n // 100
+# invers = c3*100 + c2*10 + c1
+# print("Răsturnatul =", invers)
+
+numar = int(input("introduceti un nr: "))
+
+oglindit = 0
+clona = numar
+lista=[]
+
+while clona>0:
+    cifra = clona%10
+    lista.append(cifra)
+    oglindit = oglindit *10 +cifra
+    clona = clona//10
+    
+print(f"Oglinditul numarului {numar} este: {oglindit}")
+
+
+print(lista)
